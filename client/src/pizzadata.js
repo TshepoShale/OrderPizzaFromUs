@@ -51,7 +51,7 @@ const pizzas = [
     category: "Veg",
     image:
       "https://img.freepik.com/free-photo/hawaiian-pizza_74190-2501.jpg?w=900&t=st=1709626461~exp=1709627061~hmac=230c8871010149f5913cdc4a455d309f81cedae8e4e09b91406df2b2ca4228eb",
-    description: "give your tastebuds a good time with fresh pineapple and yummy cheese and salami toppings!"
+    description: "Give your tastebuds a good time with fresh pineapple and yummy cheese and salami toppings!"
   },
 
 ];

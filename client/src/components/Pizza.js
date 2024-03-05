@@ -51,7 +51,8 @@ export default function Pizza({ pizza }) {
                 </Modal.Header>
 
                 <Modal.Body>
-                {pizza.description}
+                <img src={pizza.image} className="img-fluid" style={{height:'400px'}}/>
+                <p>{pizza.description}</p>
                 </Modal.Body>
 
                 <Modal.Footer>
