@@ -33,3 +33,7 @@ h1{
 .flex-container {
   display: flex !important;
 }
+.btn{
+  background: linear-gradient(to right, #ff0000, #ff9999) !important;
+  
+}

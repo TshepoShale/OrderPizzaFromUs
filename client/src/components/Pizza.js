@@ -33,6 +33,11 @@ export default function Pizza({ pizza }) {
                 <div>
                     <h1>Price: {pizza.prices[variant] * quantity}</h1> {/* Calculation of total. */}
                 </div>
+
+
+                <div>
+                    <button className="btn">Add To Cart</button>
+                </div>
             </div>
         </div>
     );
