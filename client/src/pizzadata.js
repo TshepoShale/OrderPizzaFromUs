@@ -20,7 +20,7 @@ const pizzas = [
   {
     name: "3-Cheese Pizza",
     variants: ["Small", "Large", "X-Large"],
-    prices: { "Small": 29.90, "Large": 75.00, "X-Large": 100.00 },
+    prices: { "Small": 29.90, "Large": 75.00, "X-Large": 110.00 },
     category: "NonVeg",
     image:
       "https://img.freepik.com/free-photo/delicious-pizza-traditional-italian-pizza_1328-3992.jpg?w=740&t=st=1709626286~exp=1709626886~hmac=eb6f0dc8b10bdf2a1dedf03670b8495759851ee4209d34842637b45f71e4fdeb",
