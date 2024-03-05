@@ -31,7 +31,7 @@ export default function Pizza({ pizza }) {
 
             <div className="flex-container">
                 <div className='w-50 m-1'> {/* margins adjusted*/}
-                    <h1 className='mt-1'>Price: {pizza.prices[variant] * quantity}</h1> {/* Calculation of total. */}
+                    <h1 className='mt-1'>R: {pizza.prices[variant] * quantity}</h1> {/* Calculation of total. */}
                 </div>
 
                 <div className='m-1'>
