@@ -47,11 +47,11 @@ export default function Pizza({ pizza }) {
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal title</Modal.Title>
+                    <Modal.Title>{pizza.name}</Modal.Title>
                 </Modal.Header>
 
                 <Modal.Body>
-                    <p>Modal body text goes here.</p>
+                {pizza.description}
                 </Modal.Body>
 
                 <Modal.Footer>
