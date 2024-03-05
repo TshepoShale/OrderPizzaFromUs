@@ -30,7 +30,7 @@ export default function Pizza({ pizza }) {
             </div>
 
             <div className="flex-container">
-                <div className='w-90 m-1'>
+                <div className='w-50 m-1'> {/* Adjust the width as needed */}
                     <h1>Price: {pizza.prices[variant] * quantity}</h1> {/* Calculation of total. */}
                 </div>
 
