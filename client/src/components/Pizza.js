@@ -5,23 +5,23 @@ export default function Pizza({ pizza }) {
     const [variant, setVariant] = useState('Small'); // Default value is set to 'Small'.
 
     return (
-        <div>
+        <div style={{margin:'100px'}}> 
             <h1>{pizza.name}</h1>
             <img src={pizza.image} className="img-fluid" style={{ height: '200px', width: '200px' }} alt={pizza.name} />
             
             <div className="flex-container"> 
-                <div className='w-100'>
+                <div className='w-100 m-1'>
                     <p>Variants:</p>
-                    <select value={variant} onChange={(e) => setVariant(e.target.value)}> 
+                    <select className='form-control' value={variant} onChange={(e) => setVariant(e.target.value)}> 
                         {pizza.variants.map((variant, index) => (
                             <option key={index}>{variant}</option>
                         ))}
                     </select>
                 </div>
 
-                <div className='w-100'> 
+                <div className='w-100 m-1'> 
                     <p>Quantity:</p>
-                    <select value={quantity} onChange={(e) => setQuantity(e.target.value)}> 
+                    <select className='form=control' value={quantity} onChange={(e) => setQuantity(e.target.value)}> 
                         {[...Array(10).keys()].map((x, i) => (
                             <option key={i+1} value={i+1}>{i+1}</option>
                         ))}
@@ -30,13 +30,13 @@ export default function Pizza({ pizza }) {
             </div>
         
             <div className="flex-container">
-                <div>
+                <div className='m-1 w-100'>
                     <h1>Price: {pizza.prices[variant] * quantity}</h1> {/* Calculation of total. */}
                 </div>
 
 
                 <div>
-                    <button className="btn">Add To Cart</button>
+                    <button className="btn">ADD TO CART</button>
                 </div>
             </div>
         </div>

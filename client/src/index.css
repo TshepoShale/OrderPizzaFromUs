@@ -35,5 +35,10 @@ h1{
 }
 .btn{
   background: linear-gradient(to right, #ff0000, #ff9999) !important;
-  
+  color: white !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
 }
